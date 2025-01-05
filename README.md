@@ -31,6 +31,7 @@
 <img width="388" alt="image" src="https://github.com/user-attachments/assets/9d547b87-b7fc-4d48-884c-1c5e3cb3f441" />
 <img width="385" alt="image" src="https://github.com/user-attachments/assets/44db1af0-05de-469a-8451-9c086f2f45ba" />
 <img width="377" alt="image" src="https://github.com/user-attachments/assets/25a573b0-8891-442d-b0bd-1b338a86acaa" />
+<img width="382" alt="image" src="https://github.com/user-attachments/assets/067891ea-5e83-468b-8955-bcde528c052a" />
 
 ## Credits
 Developed by **May Bourshan** and **Maayan Wate**
