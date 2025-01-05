@@ -1,0 +1,71 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dialogs.CreateUserDialogFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Name"
+            android:layout_margin="16dp" />
+
+        <EditText
+            android:id="@+id/editTextAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Age"
+            android:inputType="number"
+            android:layout_below="@id/editTextName"
+            android:layout_margin="16dp" />
+
+        <EditText
+            android:id="@+id/editTextWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Weight"
+            android:inputType="numberDecimal"
+            android:layout_below="@id/editTextAge"
+            android:layout_margin="16dp" />
+
+        <EditText
+            android:id="@+id/editTextHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/height"
+            android:inputType="numberDecimal"
+            android:layout_below="@id/editTextWeight"
+            android:layout_margin="16dp" />
+
+        <Spinner
+            android:id="@+id/spinnerFitnessGoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextHeight"
+            android:layout_margin="16dp"
+            android:entries="@array/fitness_goals" />
+
+        <EditText
+            android:id="@+id/editUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/user_name"
+            android:layout_below="@id/spinnerFitnessGoal"
+            android:layout_margin="16dp" />
+
+        <Button
+            android:id="@+id/buttonSaveUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save_user"
+            android:layout_below="@id/editUserName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            style="@style/CustomButton" />
+    </RelativeLayout>
+</ScrollView>

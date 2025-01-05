@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fitness_goals">
+        <item>חיטוב</item>
+        <item>מסה</item>
+    </string-array>
+
+    <string-array name="days_of_week">
+        <item>א׳</item>
+        <item>ב׳</item>
+        <item>ג׳</item>
+        <item>ד׳</item>
+        <item>ה׳</item>
+        <item>ו׳</item>
+        <item>ש׳</item>
+    </string-array>
+
+    <string-array name="months">
+        <item>ינו׳</item>
+        <item>פבר׳</item>
+        <item>מרץ</item>
+        <item>אפר׳</item>
+        <item>מאי</item>
+        <item>יוני</item>
+        <item>יולי</item>
+        <item>אוג׳</item>
+        <item>ספט׳</item>
+        <item>אוק׳</item>
+        <item>נוב׳</item>
+        <item>דצמ׳</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.WorkoutFragment"
+    android:background="#F0E1D8">
+
+    <Button
+        android:id="@+id/addWorkoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_workout"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        style="@style/CustomButton"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewWorkouts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/addWorkoutButton"
+        android:layout_above="@id/buttonBackToSplash"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        tools:listitem="@layout/item_workout"/>
+
+    <Button
+        android:id="@+id/buttonBackToSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        style="@style/CustomButton" />
+</RelativeLayout>
