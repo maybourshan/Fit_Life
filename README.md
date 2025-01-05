@@ -1,16 +1,20 @@
 # Fit Life Tracker
 
-**Fit Life Tracker** is an Android application designed to help users track their fitness progress, diet, and workouts, all in one place.  
+**Fit Life Tracker** is an Android application designed to help users efficiently track and manage their fitness progress, diet, and workouts in a structured and user-friendly way.
 
 ## Features
-- **Track Workouts**: Log daily workouts and exercises.
-- **Diet Tracking**: Keep track of meals and calorie intake.
-- **Progress Monitoring**: Visualize progress through graphs (weekly, monthly, yearly).
-- **User Profiles**: Manage personalized fitness goals and profiles.
-- **Gym Finder**: Locate nearby gyms using Google Maps API.
+- **Workout Tracking**: Log and monitor daily workouts and activities.
+- **Diet Management**: Track meals and calories, with options for adding and editing meals.
+- **Progress Visualization**: Display data in graphs for weekly, monthly, and yearly analysis.
+- **User Profiles**: Create and manage personalized fitness goals and profiles.
+- **Gym Locator**: Find nearby gyms using Google Maps integration.
 
 ## Technologies Used
-Fit Life Tracker was developed using **Kotlin** for Android development and follows the **MVVM Architecture** to ensure clean and scalable code. The app uses **SharedPreferences** for local data management and integrates **Google Maps API** to provide the "Gym Finder" feature. The project is built with **Gradle & Kotlin DSL** for effective dependency management and build configuration.
+- **Kotlin**: Programming language for Android development.
+- **Room Database**: Efficient local data storage and management.
+- **MVVM Architecture**: Ensures scalability and clean code separation.
+- **Google Maps API**: Enables gym locator functionality.
+- **Gradle & Kotlin DSL**: Streamlined dependency management and project configuration.
 
 ## Installation
 1. Clone the repository:
@@ -18,7 +22,12 @@ Fit Life Tracker was developed using **Kotlin** for Android development and foll
    git clone https://github.com/maybourshan/Fit_Life.git
 2. Open the project in **Android Studio**.
 3. Sync the Gradle files to download all required dependencies.
-4. Build the project and run the app on an emulator or a physical Android device.
+4. Build and run the app on an emulator or a physical Android device.
+
+## Screenshots
+<img width="540" alt="image" src="https://github.com/user-attachments/assets/3cd3c408-0193-4a8e-83ce-6dae45823678" />
+<img width="398" alt="image" src="https://github.com/user-attachments/assets/866114ed-34a6-42a8-89ee-f0449c4eaf77" />
+<img width="404" alt="image" src="https://github.com/user-attachments/assets/26ba7908-3592-4393-a351-923027b7fda2" />
 
 ## Credits
-Developed by **May Bourshan** and **Maayan Wate**.
+Developed by **May Bourshan** and **Maayan Wate**
